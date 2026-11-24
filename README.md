@@ -13,7 +13,14 @@ Hiện mình đang làm việc tại **GINVIFI**. Trước đây, mình từng l
 
 ![React, Next.js, TypeScript, Tailwind CSS, PHP, Laravel, Cloudflare và Git](assets/technologies.svg)
 
-Mình dùng **Framer Motion** để tạo chuyển động trên website cá nhân và **next-intl** để tổ chức nội dung tiếng Lào, tiếng Việt cho Japan 2nd Life.
+<details>
+<summary>Xem cách mình dùng các công nghệ này trong dự án thực tế</summary>
+
+- **Giao diện song ngữ** · Trong Japan 2nd Life, mình dùng Next.js, TypeScript và `next-intl` để một danh mục sản phẩm có thể phục vụ cả người đọc tiếng Lào lẫn tiếng Việt. Hai phiên bản được xuất thành trang tĩnh ở `/lo` và `/vi`. [Xem mã nguồn](https://github.com/sytrong0802/Japan-2nd-life)
+- **Chuyển động và triển khai** · Website cá nhân dùng Framer Motion cho giao diện React, còn OpenNext kết nối ứng dụng Next.js với môi trường triển khai Cloudflare. [Xem website cá nhân trên GitHub](https://github.com/sytrong0802/subnhatrongend)
+- **API tìm kiếm** · Với PHP và Laravel, mình xử lý bộ lọc theo hãng, loại và khoảng giá thuê, rồi định dạng mã xe để danh sách và trang chi tiết hiển thị nhất quán. [Xem phần mình đóng góp](https://github.com/tainguyenwork9/BE_CS403_G/commit/ecd9d4b)
+
+</details>
 
 <a id="du-an"></a>
 ## Dự án chọn lọc

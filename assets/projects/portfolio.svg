@@ -1,10 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="404" height="244" viewBox="0 0 404 244" role="img" aria-labelledby="t d">
   <title id="t">Website cá nhân</title><desc id="d">Website song ngữ với chuyển động và API liên hệ chạy trên Cloudflare. Next.js · Framer Motion.</desc>
   <defs><pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0v18" fill="none" stroke="#cfb6ff" opacity=".12"/></pattern></defs>
-  <style>text{font-family:'Segoe UI',Arial,sans-serif}.flow{animation:route 3s ease-in-out infinite alternate}@keyframes route{from{transform:translateX(-34px)}to{transform:translateX(34px)}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+    <style>
+    text {font-family:"Segoe UI",Arial,sans-serif}
+    .type { stroke-dasharray:100; animation:write 5s ease-in-out infinite; } @keyframes write {0%,100% {stroke-dashoffset:85} 45%,80% {stroke-dashoffset:0}}
+    @media (prefers-reduced-motion:reduce) { .type {animation:none} }
+  </style>
   <rect x="1" y="1" width="402" height="242" rx="14" fill="#211d2c" stroke="#594b61"/>
   <rect x="8" y="8" width="388" height="92" rx="8" fill="url(#grid)"/>
-  <g transform="translate(94 12) rotate(-4 82 39)"><rect width="186" height="77" rx="7" fill="#383044" stroke="#d2b6ff"/><path d="M0 16h186" stroke="#776889"/><circle cx="9" cy="8" r="2" fill="#ffbf98"/><circle cx="16" cy="8" r="2" fill="#d2b6ff"/><text x="13" y="55" fill="#f3e6ff" font-size="35" font-weight="800" font-style="italic">ST</text><path d="M79 38h76m-76 9h50m-50 9h62" stroke="#ad99be" stroke-width="3"/></g>
+  <g transform="translate(94 12) rotate(-4 82 39)"><rect width="186" height="77" rx="7" fill="#383044" stroke="#d2b6ff"/><path d="M0 16h186" stroke="#776889"/><circle cx="9" cy="8" r="2" fill="#ffbf98"/><circle cx="16" cy="8" r="2" fill="#d2b6ff"/><text x="13" y="55" fill="#f3e6ff" font-size="35" font-weight="800" font-style="italic">ST</text><path class="type" pathLength="100" d="M79 38h76m-76 9h50m-50 9h62" stroke="#ad99be" stroke-width="3"/></g>
   <path d="M20 104h364" stroke="#4a4054"/>
   <text x="21" y="130" font-size="15" fill="#cfb6ff">Next.js · Framer Motion</text>
   <text x="20" y="166" font-size="29" font-weight="700" fill="#fff5ec">Website cá nhân</text>
