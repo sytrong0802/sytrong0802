@@ -18,12 +18,12 @@ Mình dùng **Framer Motion** để tạo chuyển động trên website cá nh�
 <a id="du-an"></a>
 ## Dự án chọn lọc
 
-| Dự án | Bên trong có gì? |
-| --- | --- |
-| **[Website cá nhân ↗](https://github.com/sytrong0802/subnhatrongend)** | Website song ngữ với chuyển động bằng Framer Motion. Phần giao diện dùng Next.js, còn API liên hệ chạy trên Cloudflare. |
-| **[Japan 2nd Life ↗](https://github.com/sytrong0802/Japan-2nd-life)** | Cùng một danh mục đồ Nhật đã qua sử dụng được trình bày bằng tiếng Lào và tiếng Việt. Mỗi ngôn ngữ có đường dẫn riêng và có thể triển khai dưới dạng trang tĩnh. |
-| **[CS434 ↗](https://github.com/sytrong0802/CS434)** | Đồ án tách giao diện React và backend Laravel thành hai phần trong cùng một repo. |
-| **[API thuê xe · CS403 ↗](https://github.com/tainguyenwork9/BE_CS403_G/commit/ecd9d4b)** | Phần mình đóng góp trong dự án nhóm gồm lọc xe theo hãng, loại, tên và giá thuê, cùng tra cứu chi tiết theo mã xe. |
+<p>
+  <a href="https://github.com/sytrong0802/subnhatrongend"><img src="assets/projects/portfolio.svg" width="350" alt="Website cá nhân song ngữ với Next.js, Framer Motion và API liên hệ chạy trên Cloudflare"></a>
+  <a href="https://github.com/sytrong0802/Japan-2nd-life"><img src="assets/projects/japan.svg" width="350" alt="Japan 2nd Life — danh mục đồ Nhật đã qua sử dụng bằng tiếng Lào và tiếng Việt"></a>
+  <a href="https://github.com/sytrong0802/CS434"><img src="assets/projects/cs434.svg" width="350" alt="CS434 — giao diện React và backend Laravel trong cùng một repo"></a>
+  <a href="https://github.com/tainguyenwork9/BE_CS403_G/commit/ecd9d4b"><img src="assets/projects/rental.svg" width="350" alt="Xem phần đóng góp cho CS403 — API lọc và tra cứu xe cho thuê"></a>
+</p>
 
 <details>
 <summary>Xem minh họa API thuê xe</summary>
