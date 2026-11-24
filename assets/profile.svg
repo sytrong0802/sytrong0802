@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" role="img" aria-labelledby="title desc">
+  <title id="title">sytrong0802 · Web developer</title>
+  <desc id="desc">Ba lớp giao diện, API và triển khai nối với nhau bằng những xung sáng.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2=".5"><stop stop-color="#101421"/><stop offset="1" stop-color="#1e223a"/></linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#a9a4fb" opacity=".28"/></pattern>
+    <path id="layer" d="m0 0 82-34 82 34-82 34z"/>
+    <style>
+      text {font-family:'Segoe UI',Arial,sans-serif}
+      .pulse {animation:signal 4s ease-in-out infinite}
+      .next {animation-delay:1.3s}
+      @keyframes signal {0%,15% {opacity:0;transform:translateY(0)} 30%,65% {opacity:1} 85%,100% {opacity:0;transform:translateY(40px)}}
+      @media(prefers-reduced-motion:reduce){.pulse{animation:none}}
+    </style>
+  </defs>
+  <rect width="980" height="280" rx="18" fill="url(#bg)"/>
+  <rect x="543" y="18" width="413" height="244" fill="url(#dots)"/>
+  <g transform="translate(46 56)">
+    <path d="m0 10 9-8 9 8-9 8z" fill="#9cf3ce"/>
+    <text x="31" y="16" fill="#c3bdff" font-size="17" letter-spacing="2">WEB DEVELOPER</text>
+    <text x="-3" y="103" fill="#faf7ff" font-size="77" font-weight="700" letter-spacing="-4">sytrong0802</text>
+    <text y="158" fill="#c8cbdc" font-size="23">Frontend / Backend / Deployment</text>
+  </g>
+  <g transform="translate(615 86)" stroke-linejoin="round">
+    <use href="#layer" y="92" fill="#212d36" stroke="#8ce7c4" stroke-width="2"/>
+    <use href="#layer" y="46" fill="#30354c" stroke="#a3acdb" stroke-width="2"/>
+    <use href="#layer" fill="#39365b" stroke="#c2afff" stroke-width="2"/>
+    <path d="M82 34v92" stroke="#b7b2d5" stroke-dasharray="3 5"/>
+    <g fill="#b6ffdf"><circle class="pulse" cx="82" cy="36" r="4"/><circle class="pulse next" cx="82" cy="82" r="4"/></g>
+    <path d="M167 0h21m-21 46h21m-21 46h21" stroke="#888da8"/>
+    <g x="0" font-size="17" fill="#ddd9ef"><text x="196" y="6">Interface</text><text x="196" y="52">API</text><text x="196" y="98">Deploy</text></g>
+  </g>
+</svg>

@@ -1,24 +1,36 @@
-![sytrong0802 — bản vẽ động của mẫu xe MX001](assets/mx001.svg)
+![sytrong0802 · Web developer — Frontend, Backend, Deployment](assets/profile.svg)
 
-### API tìm xe cho thuê
+Mình là **sytrong0802**. Mình làm ứng dụng web bằng React, Next.js và Laravel. Những dự án ở đây trải từ giao diện song ngữ Lào–Việt đến API tìm kiếm và triển khai website trên Cloudflare.
 
-Trong đồ án nhóm CS403, mình viết phần lọc xe đang sẵn sàng theo tên, loại, hãng và khoảng giá. Khi người dùng mở chi tiết, API nhận mã như `MX001` và trả về thông tin của chiếc xe tương ứng.
+[Dự án](#du-an) · [Công nghệ](#cong-nghe) · [Trao đổi](#trao-doi)
 
-![Demo minh họa hai bước: lọc xe Toyota rồi mở chi tiết MX001](assets/vehicle-query.svg)
+<a id="du-an"></a>
+## Dự án chọn lọc
 
-[Xem phần code mình đóng góp ↗](https://github.com/tainguyenwork9/BE_CS403_G/commit/ecd9d4b)
+| Dự án | Bên trong có gì? |
+| --- | --- |
+| **[Website cá nhân ↗](https://github.com/sytrong0802/subnhatrongend)** | Website song ngữ với chuyển động bằng Framer Motion. Phần giao diện dùng Next.js, còn API liên hệ chạy trên Cloudflare. |
+| **[Japan 2nd Life ↗](https://github.com/sytrong0802/Japan-2nd-life)** | Cùng một danh mục đồ Nhật đã qua sử dụng được trình bày bằng tiếng Lào và tiếng Việt. Mỗi ngôn ngữ có đường dẫn riêng và có thể triển khai dưới dạng trang tĩnh. |
+| **[CS434 ↗](https://github.com/sytrong0802/CS434)** | Đồ án tách giao diện React và backend Laravel thành hai phần trong cùng một repo. |
+| **[API thuê xe · CS403 ↗](https://github.com/tainguyenwork9/BE_CS403_G/commit/ecd9d4b)** | Phần mình đóng góp trong dự án nhóm gồm lọc xe theo hãng, loại, tên và giá thuê, cùng tra cứu chi tiết theo mã xe. |
 
 <details>
-<summary>Vì sao lại là <code>MX001</code>?</summary>
+<summary>Xem minh họa API thuê xe</summary>
 
-Controller chuyển `MX001` thành số `1` để tra cứu trong cơ sở dữ liệu. Khi trả kết quả, nó thêm tiền tố `MX` và đệm số thành ít nhất ba chữ số để danh sách và trang chi tiết cùng hiển thị một kiểu mã xe.
+![Lọc theo hãng Toyota rồi xem thông tin xe MX001. Dữ liệu minh họa.](assets/vehicle-query.svg)
 
 </details>
 
-### Dự án web
+<a id="cong-nghe"></a>
+## Công nghệ mình sử dụng
 
-| Dự án | Điểm đáng xem |
-| --- | --- |
-| [Japan 2nd Life ↗](https://github.com/sytrong0802/Japan-2nd-life) | Cửa hàng đồ Nhật đã qua sử dụng có hai phiên bản tiếng Lào và tiếng Việt. Next.js xuất trang tĩnh cho từng ngôn ngữ. |
-| [Website cá nhân ↗](https://github.com/sytrong0802/subnhatrongend) | Website song ngữ dùng React và Framer Motion cho phần chuyển động, có API liên hệ và cấu hình triển khai lên Cloudflare. |
-| [CS434 ↗](https://github.com/sytrong0802/CS434) | Mã nguồn đồ án chia thành hai phần để dễ theo dõi từ giao diện React đến backend Laravel. |
+- **Giao diện** · React, Next.js và TypeScript cho các trang web. Tailwind CSS cho bố cục, Framer Motion cho chuyển động.
+- **Backend** · PHP và Laravel để xử lý yêu cầu, lọc dữ liệu và trả kết quả JSON.
+- **Đa ngôn ngữ & triển khai** · `next-intl` cho nội dung Lào–Việt, Next.js static export cho hosting tĩnh và OpenNext cho Cloudflare.
+
+<a id="trao-doi"></a>
+## Trao đổi
+
+Bạn muốn trao đổi về một tính năng hoặc góp ý cho dự án? Chọn repo tương ứng ở trên và mở một issue để mình có thể theo dõi cùng đoạn code liên quan.
+
+[Xem tất cả repository của mình ↗](https://github.com/sytrong0802?tab=repositories)
