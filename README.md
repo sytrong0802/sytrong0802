@@ -4,6 +4,10 @@ Mình là **sytrong0802**, người đứng sau **ST Shop**, cửa hàng tài kh
 
 [![Ghé ST Shop — cửa hàng tài khoản AI và Premium tại stshop.id.vn](assets/st-shop.svg)](https://stshop.id.vn/)
 
+## Kinh nghiệm làm việc
+
+Hiện mình đang làm việc tại **GINVIFI**. Trước đây, mình từng làm tại **Công ty Truyền thông và Giải trí Eztub** và **Công ty TNHH SOFIN NETWORD**.
+
 <a id="cong-nghe"></a>
 ## Công nghệ mình thành thạo
 
