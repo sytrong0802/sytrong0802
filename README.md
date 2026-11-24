@@ -4,6 +4,8 @@
 
 Trong đồ án nhóm CS403, mình viết phần lọc xe đang sẵn sàng theo tên, loại, hãng và khoảng giá. Khi người dùng mở chi tiết, API nhận mã như `MX001` và trả về thông tin của chiếc xe tương ứng.
 
+![Demo minh họa hai bước: lọc xe Toyota rồi mở chi tiết MX001](assets/vehicle-query.svg)
+
 [Xem phần code mình đóng góp ↗](https://github.com/tainguyenwork9/BE_CS403_G/commit/ecd9d4b)
 
 <details>
@@ -13,6 +15,10 @@ Controller chuyển `MX001` thành số `1` để tra cứu trong cơ sở dữ 
 
 </details>
 
-### Dự án khác
+### Dự án web
 
-[Japan-2nd-life · TypeScript](https://github.com/sytrong0802/Japan-2nd-life) &nbsp; / &nbsp; [CS434 · JavaScript](https://github.com/sytrong0802/CS434)
+| Dự án | Điểm đáng xem |
+| --- | --- |
+| [Japan 2nd Life ↗](https://github.com/sytrong0802/Japan-2nd-life) | Cửa hàng đồ Nhật đã qua sử dụng có hai phiên bản tiếng Lào và tiếng Việt. Next.js xuất trang tĩnh cho từng ngôn ngữ. |
+| [Website cá nhân ↗](https://github.com/sytrong0802/subnhatrongend) | Website song ngữ dùng React và Framer Motion cho phần chuyển động, có API liên hệ và cấu hình triển khai lên Cloudflare. |
+| [CS434 ↗](https://github.com/sytrong0802/CS434) | Mã nguồn đồ án chia thành hai phần để dễ theo dõi từ giao diện React đến backend Laravel. |

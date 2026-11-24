@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="266" viewBox="0 0 800 266" role="img" aria-labelledby="title desc">
+  <title id="title">Minh họa API tìm xe</title>
+  <desc id="desc">Lọc theo hãng Toyota rồi mở chi tiết MX001. Dữ liệu minh họa.</desc>
+  <style>
+    text { font-family: Consolas, monospace; fill: #d7ebe9 }
+    .muted { fill: #a3b9c2 }
+    .mint { fill: #8ae7c6 }
+    .list { animation: list 10s infinite }
+    .detail { opacity: 0; animation: detail 10s infinite }
+    @keyframes list { 0%,44%,100% { opacity:1 } 48%,96% { opacity:0 } }
+    @keyframes detail { 0%,46%,100% { opacity:0 } 50%,95% { opacity:1 } }
+    @media (prefers-reduced-motion: reduce) { .list,.detail { animation:none } }
+  </style>
+  <rect width="800" height="266" rx="14" fill="#0d202c"/>
+  <path d="M0 55h800M27 127h746" stroke="#35515a"/>
+  <g font-size="17">
+    <circle cx="32" cy="29" r="5" fill="#8ae7c6"/>
+    <text x="51" y="35">Vehicle API</text>
+    <text x="770" y="35" text-anchor="end" class="muted">Dữ liệu minh họa</text>
+  </g>
+  <rect x="28" y="79" width="58" height="30" rx="6" fill="#20473e"/>
+  <text x="57" y="100" text-anchor="middle" font-size="18" class="mint">GET</text>
+  <text x="766" y="101" text-anchor="end" font-size="18" class="mint">200 OK</text>
+  <g class="list">
+    <text x="104" y="101" font-size="21">/api/vehicles?hangXe=Toyota</text>
+    <text x="30" y="163" font-size="16" class="muted">KẾT QUẢ LỌC THEO HÃNG</text>
+    <text x="30" y="218" font-size="32" class="mint">MX001</text>
+    <text x="185" y="218" font-size="25">Toyota Vios</text>
+    <text x="766" y="218" text-anchor="end" font-size="21">Sẵn sàng</text>
+  </g>
+  <g class="detail">
+    <text x="104" y="101" font-size="21">/api/vehicles/MX001</text>
+    <text x="30" y="163" font-size="16" class="muted">CHI TIẾT XE</text>
+    <g font-size="19">
+      <text x="30" y="199">data.maXe</text><text x="230" y="199" class="mint">"MX001"</text>
+      <text x="30" y="233">data.tinhTrang</text><text x="230" y="233" class="mint">"Sẵn sàng"</text>
+    </g>
+  </g>
+</svg>
