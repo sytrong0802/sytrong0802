@@ -1,12 +1,15 @@
 ![sytrong0802 · Web developer · Biểu tượng ST với dải sóng tím và cam](assets/profile.svg)
 
-Mình là **sytrong0802**, người đứng sau **ST Shop**, cửa hàng tài khoản AI và Premium. Mình làm web từ giao diện React đến API Laravel và triển khai trên Cloudflare. Ở đây mình chia sẻ những sản phẩm đã làm cùng phần code phía sau.
+Mình là **Đồng Sỹ Trọng** (@sytrong0802), sinh viên ngành **Công nghệ phần mềm tại Đại học Duy Tân** (khóa 2023–2027). Mình phát triển ứng dụng web và vận hành **ST Shop**, cửa hàng tài khoản AI và Premium. Trước khi làm những dự án React và Laravel ở dưới, mình đã có kinh nghiệm sản xuất nội dung và làm việc trực tiếp với khách hàng.
 
 [![Ghé ST Shop — cửa hàng tài khoản AI và Premium tại stshop.id.vn](assets/st-shop.svg)](https://stshop.id.vn/)
 
 ## Kinh nghiệm làm việc
 
 Hiện mình đang làm việc tại **GINVIFI**. Trước đây, mình từng làm tại **Công ty Truyền thông và Giải trí Eztub** và **Công ty TNHH SOFIN NETWORD**.
+
+- **Vilas · 09/2024–03/2025** — Mình nhập liệu, kiểm tra lỗi và phân chia công việc cho nhóm nội dung. Mình cũng biên tập bài viết, quản lý trang và hỗ trợ SEO cơ bản.
+- **Freelance nội dung số · bắt đầu năm 2021** — Mình làm tiếp thị liên kết và triển khai chiến dịch trực tuyến. Google Trends giúp mình tìm chủ đề, còn Canva và CapCut là hai công cụ mình dùng để làm hình ảnh và video.
 
 <a id="cong-nghe"></a>
 ## Công nghệ mình thành thạo
