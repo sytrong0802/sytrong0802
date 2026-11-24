@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 310" width="980" height="310" role="img" aria-labelledby="title desc">
+  <title id="title">sytrong0802 · MX001</title>
+  <desc id="desc">Bản vẽ xe thể thao màu xanh bạc hà trên nền mực đêm. Một vệt sáng quét qua thân xe.</desc>
+  <defs>
+    <linearGradient id="night" x2="1" y2=".35" gradientUnits="objectBoundingBox">
+      <stop stop-color="#0a1522"/><stop offset=".62" stop-color="#10293a"/><stop offset="1" stop-color="#123745"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#b3eadb" stroke-opacity=".11"/>
+    </pattern>
+    <linearGradient id="glass" x2=".85" y2="1">
+      <stop stop-color="#549caa"/><stop offset="1" stop-color="#102638"/>
+    </linearGradient>
+    <linearGradient id="beam">
+      <stop stop-color="#94ffe2" stop-opacity="0"/><stop offset="1" stop-color="#94ffe2" stop-opacity=".34"/>
+    </linearGradient>
+    <path id="shell" d="M513 193Q520 178 547 173L587 165Q626 126 660 119Q696 111 723 121Q743 127 779 157L847 168Q882 174 897 191L895 204L871 209Q870 176 844 176Q817 176 816 210H621Q620 178 594 178Q567 178 567 209L527 206Q511 204 513 193Z"/>
+    <clipPath id="body"><use href="#shell"/></clipPath>
+    <g id="wheel" fill="none">
+      <circle r="24" fill="#0a1a28" stroke="#89d3ce" stroke-width="2"/>
+      <circle r="16" stroke="#487d87"/><circle r="5" stroke="#c4f8e8"/>
+      <path d="M0-16V-6M15-5L6-2M9 13L4 5M-9 13L-4 5M-15-5L-6-2" stroke="#89d3ce" stroke-width="2"/>
+    </g>
+    <style>
+      .sweep { animation: sweep 5.8s ease-in-out infinite }
+      @keyframes sweep { 0%,14% { transform: translateX(0) } 78%,100% { transform: translateX(480px) } }
+      @media (prefers-reduced-motion: reduce) { .sweep { animation: none } }
+    </style>
+  </defs>
+  <rect width="980" height="310" rx="16" fill="url(#night)"/>
+  <rect x="466" y="20" width="486" height="270" fill="url(#grid)"/>
+  <g fill="none" stroke="#83c2bf" opacity=".65">
+    <path d="M28 49V26h23M929 26h23v23M952 261v23h-23M51 284H28v-23"/>
+    <path d="M507 246H899m-386-5v10m384-10v10" stroke-dasharray="3 4"/>
+  </g>
+  <g font-family="Consolas, monospace" fill="#91dbce" letter-spacing="2">
+    <text x="55" y="91" font-size="15">WEB DEVELOPMENT</text>
+    <text x="56" y="217" font-size="17" fill="#b0cacf" letter-spacing="1">Laravel / TypeScript</text>
+    <text x="882" y="84" text-anchor="end" font-size="15">MX001</text>
+  </g>
+  <text x="51" y="168" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="-3.5" fill="#edfff8">sytrong0802</text>
+  <path d="M805 118l20-20h58" fill="none" stroke="#85c4bc"/><circle cx="805" cy="118" r="3" fill="#ffbd79"/>
+  <use href="#shell" fill="#24505c" stroke="#b8f9e9" stroke-width="2.4"/>
+  <path d="M600 163q41-38 65-41 33-6 55 2 17 8 46 31z" fill="url(#glass)" stroke="#a5e7dd"/>
+  <path d="M678 122l-11 37m-63 11 63-7-6 32-36 7m56-40 82-5 13 10-17 28-85 4m-142-14 38-6m212-9 74 9" fill="none" stroke="#7cbdc1"/>
+  <path d="M868 179l17 6-19-2M520 192l20-3" fill="none" stroke="#ffd29a" stroke-width="3"/>
+  <g clip-path="url(#body)"><g class="sweep"><path d="M426 110h57l-20 110h-57z" fill="url(#beam)"/><path d="M483 110l-20 110" stroke="#c8fff0" stroke-width="2"/></g></g>
+  <use href="#wheel" x="594" y="205"/><use href="#wheel" x="844" y="205"/>
+</svg>

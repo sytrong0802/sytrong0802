@@ -1,16 +1,18 @@
-## Hi there 👋
+![sytrong0802 — bản vẽ động của mẫu xe MX001](assets/mx001.svg)
 
-<!--
-**sytrong0802/sytrong0802** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### API tìm xe cho thuê
 
-Here are some ideas to get you started:
+Trong đồ án nhóm CS403, mình viết phần lọc xe đang sẵn sàng theo tên, loại, hãng và khoảng giá. Khi người dùng mở chi tiết, API nhận mã như `MX001` và trả về thông tin của chiếc xe tương ứng.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Xem phần code mình đóng góp ↗](https://github.com/tainguyenwork9/BE_CS403_G/commit/ecd9d4b)
+
+<details>
+<summary>Vì sao lại là <code>MX001</code>?</summary>
+
+Controller chuyển `MX001` thành số `1` để tra cứu trong cơ sở dữ liệu. Khi trả kết quả, nó thêm tiền tố `MX` và đệm số thành ít nhất ba chữ số để danh sách và trang chi tiết cùng hiển thị một kiểu mã xe.
+
+</details>
+
+### Dự án khác
+
+[Japan-2nd-life · TypeScript](https://github.com/sytrong0802/Japan-2nd-life) &nbsp; / &nbsp; [CS434 · JavaScript](https://github.com/sytrong0802/CS434)
