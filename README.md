@@ -1,8 +1,15 @@
-![sytrong0802 · Web developer — Frontend, Backend, Deployment](assets/profile.svg)
+![sytrong0802 · Web developer · Biểu tượng ST với dải sóng tím và cam](assets/profile.svg)
 
-Mình là **sytrong0802**. Mình làm ứng dụng web bằng React, Next.js và Laravel. Những dự án ở đây trải từ giao diện song ngữ Lào–Việt đến API tìm kiếm và triển khai website trên Cloudflare.
+Mình là **sytrong0802**, người đứng sau **ST Shop**, cửa hàng tài khoản AI và Premium. Mình làm web từ giao diện React đến API Laravel và triển khai trên Cloudflare. Ở đây mình chia sẻ những sản phẩm đã làm cùng phần code phía sau.
 
-[Dự án](#du-an) · [Công nghệ](#cong-nghe) · [Trao đổi](#trao-doi)
+[![Ghé ST Shop — cửa hàng tài khoản AI và Premium tại stshop.id.vn](assets/st-shop.svg)](https://stshop.id.vn/)
+
+<a id="cong-nghe"></a>
+## Công nghệ mình thành thạo
+
+![React, Next.js, TypeScript, Tailwind CSS, PHP, Laravel, Cloudflare và Git](assets/technologies.svg)
+
+Mình dùng **Framer Motion** để tạo chuyển động trên website cá nhân và **next-intl** để tổ chức nội dung tiếng Lào, tiếng Việt cho Japan 2nd Life.
 
 <a id="du-an"></a>
 ## Dự án chọn lọc
@@ -20,13 +27,6 @@ Mình là **sytrong0802**. Mình làm ứng dụng web bằng React, Next.js và
 ![Lọc theo hãng Toyota rồi xem thông tin xe MX001. Dữ liệu minh họa.](assets/vehicle-query.svg)
 
 </details>
-
-<a id="cong-nghe"></a>
-## Công nghệ mình sử dụng
-
-- **Giao diện** · React, Next.js và TypeScript cho các trang web. Tailwind CSS cho bố cục, Framer Motion cho chuyển động.
-- **Backend** · PHP và Laravel để xử lý yêu cầu, lọc dữ liệu và trả kết quả JSON.
-- **Đa ngôn ngữ & triển khai** · `next-intl` cho nội dung Lào–Việt, Next.js static export cho hosting tĩnh và OpenNext cho Cloudflare.
 
 <a id="trao-doi"></a>
 ## Trao đổi

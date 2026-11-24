@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="178" viewBox="0 0 980 178" role="img" aria-labelledby="t">
+  <title id="t">ST Shop · Tài khoản AI và Premium · Mở stshop.id.vn</title>
+  <defs>
+    <linearGradient id="peach"><stop stop-color="#ffe2b9"/><stop offset="1" stop-color="#ffa98d"/></linearGradient>
+    <style>
+      .key {animation:float 4s ease-in-out infinite alternate}
+      @keyframes float {to {transform:translateY(-6px)}}
+      @media(prefers-reduced-motion:reduce){.key{animation:none}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="978" height="176" rx="17" fill="url(#peach)"/>
+  <path d="M667 9v160" stroke="#986d70" stroke-dasharray="3 6"/>
+  <g transform="translate(40 33)"><g class="key">
+    <rect x="0" y="6" width="110" height="110" rx="27" fill="#402d45"/>
+    <g transform="rotate(-35 52 64)" fill="none" stroke="#ffe0bb" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="41" cy="55" r="15"/><path d="M56 55h29m-6 0v10m-11-10v7"/>
+    </g>
+    <path d="m82 20 2.5 6.5L91 29l-6.5 2.5L82 38l-2.5-6.5L73 29l6.5-2.5z" fill="#d5b5ff"/>
+  </g></g>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#322333">
+    <text x="181" y="91" font-size="53" font-weight="750" letter-spacing="-2">ST Shop</text>
+    <text x="183" y="128" font-size="23">Cửa hàng tài khoản AI &amp; Premium</text>
+    <text x="704" y="95" font-size="31" font-weight="650">stshop.id.vn</text>
+    <path d="M895 98l24-24m-18 0h18v18" fill="none" stroke="#322333" stroke-width="3.5"/>
+  </g>
+</svg>
